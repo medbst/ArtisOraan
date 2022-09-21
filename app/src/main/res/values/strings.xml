@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ArtisOran</string>
+
+    <string-array name="wilaya_array">
+        <item>Oran</item>
+        <item>Alger</item>
+        <item>Bechar</item>
+        <item>Adrar</item>
+        <item>Telemcen</item>
+        <item>Skikda</item>
+        <item>Constantine</item>
+        <item>Batna</item>
+    </string-array>
+
+</resources>

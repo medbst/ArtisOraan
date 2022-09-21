@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="17dp"
+    android:backgroundTint="@color/orange"
+    app:cardCornerRadius="15dp">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="13dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/tvnom"
+
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="22dp"
+            android:textColor="@color/black"
+            android:text="boussettine"
+            android:fontFamily="@font/roboto_bold"
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/tvprenom"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textSize="20dp"
+            android:text="mohamed"
+            android:textColor="@color/black"
+            android:fontFamily="@font/roboto_bold"
+            ></TextView>
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="14dp"
+
+
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/tvtype"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginLeft="19dp"
+                android:text="Plombier"
+                android:fontFamily="@font/roboto_bold"
+                ></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="14dp"
+
+            android:layout_marginBottom="9dp"
+
+            >
+
+
+            <TextView
+                android:id="@+id/tvnum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="19dp"
+                android:fontFamily="@font/roboto_light"
+                android:text="0798678960"
+                android:textSize="19dp"></TextView>
+        </LinearLayout>
+
+
+</LinearLayout>
+
+</androidx.cardview.widget.CardView>

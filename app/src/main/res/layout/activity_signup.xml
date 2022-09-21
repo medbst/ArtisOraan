@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+        <RelativeLayout
+    android:layout_width="match_parent"
+   android:layout_height="wrap_content"
+    tools:context=".Signup"
+    android:background="@color/bleu">
+
+    <TextView
+        android:id="@+id/signin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="60dp"
+
+        android:layout_marginBottom="60dp"
+        android:fontFamily="@font/archivo_black"
+
+        android:text="S'inscrire"
+        android:textAlignment="center"
+        android:textColor="#C1FFFFFF"
+        android:textSize="30dp"
+        android:textStyle="bold"></TextView>
+
+
+   >
+    <EditText
+        android:id="@+id/etnom"
+        android:inputType="textCapSentences"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/signin"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:alpha="0.7"
+        android:background="@drawable/roundedcorners"
+        android:drawableLeft="@drawable/ic_baseline_person_outline_24"
+        android:drawablePadding="20dp"
+        android:fontFamily="@font/roboto_light"
+        android:hint="Nom"
+        android:padding="13dp" />
+    <EditText
+        android:id="@+id/etprenom"
+        android:layout_width="match_parent"
+        android:inputType="textCapSentences"
+        android:layout_height="50dp"
+        android:layout_below="@+id/etnom"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:alpha="0.7"
+        android:background="@drawable/roundedcorners"
+        android:drawableLeft="@drawable/ic_baseline_person_outline_24"
+        android:drawablePadding="20dp"
+        android:fontFamily="@font/roboto_light"
+        android:hint="Prénom"
+        android:padding="13dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/etemail"
+        android:layout_height="50dp"
+        android:hint="Email"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:alpha="0.7"
+        android:padding="13dp"
+        android:fontFamily="@font/roboto_light"
+        android:textColor="@color/white"
+        android:background="@drawable/roundedcorners"
+        android:layout_marginLeft="30dp"
+        android:drawableLeft="@drawable/ic_baseline_mail_outline_24"
+        android:drawablePadding="20dp"
+        android:layout_below="@+id/etprenom"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/etnumero"
+       android:inputType="number"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_height="50dp"
+        android:hint="Téléphone"
+        android:alpha="0.7"
+        android:padding="13dp"
+        android:fontFamily="@font/roboto_light"
+        android:textColor="@color/white"
+        android:background="@drawable/roundedcorners"
+        android:layout_marginLeft="30dp"
+        android:drawableLeft="@drawable/ic_baseline_phone_24"
+        android:drawablePadding="20dp"
+        android:layout_below="@+id/etemail"
+
+        />
+
+    <EditText
+        android:id="@+id/etpassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/etnumero"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:alpha="0.7"
+
+        android:background="@drawable/roundedcorners"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="20dp"
+        android:fontFamily="@font/roboto_light"
+        android:hint=" Mot de passe"
+        android:inputType="textPassword"
+        android:padding="13dp"
+        android:textColor="@color/white" />
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/etprofession"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etpassword"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="30dp"
+                android:alpha="0.7"
+                android:background="@drawable/roundedcorners"
+
+                android:fontFamily="@font/roboto_light"
+
+                android:inputType="text"
+                android:padding="0dp"
+                android:textColor="@color/white">
+
+                <AutoCompleteTextView
+                    android:id="@+id/tvtype"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:inputType="none"
+                    android:text="Plombier"
+                    android:textSize="23dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btsinscrir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etprofession"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="@color/orange"
+        android:fontFamily="@font/roboto_medium"
+        android:text="S'inscrire"
+        android:textColor="@color/black">
+
+    </Button>
+
+
+
+
+        </RelativeLayout>
+</ScrollView>

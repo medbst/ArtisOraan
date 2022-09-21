@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "437254000756",
+    "project_id": "artisoran-608d9",
+    "storage_bucket": "artisoran-608d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437254000756:android:b7f0d0bfe66dd3b5884121",
+        "android_client_info": {
+          "package_name": "fr.example.artisoraan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "437254000756-aop3kdnlmg2j9h71gg10jieb91r1mg9h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxsdN1L95LvSr9pvQDeqqDi5qY8n1nCCc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "437254000756-aop3kdnlmg2j9h71gg10jieb91r1mg9h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
